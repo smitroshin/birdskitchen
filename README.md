@@ -2,11 +2,14 @@
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) [![Github All Releases](https://img.shields.io/github/downloads/fredserva/birdskitchen/total.svg)]()
 
-
 **Love Birds Kitchen? Give this repo a star :star:**
+
 ## Website
+
 <a href="https://tenbirds.online/birdskitchen/">https://tenbirds.online/birdskitchen/</a>
+
 ##
+
 I wanted to learn something new...
 
 So, I decided to take a crack at learning React and building an application that I found deeply missing in Linux: a Desktop Recipe Manager (I know there are some, but they don't match my needs...)
@@ -20,6 +23,7 @@ I you want to contribute, please send me a mail or a pidgeon :grin:
 &nbsp;
 
 **Dark and light themes - Grid view**
+
 <p align="center">
     <img src="screenshots/01.png" alt="Birds Kitchen" title="Birds Kitchen" />
 </p>
@@ -27,6 +31,7 @@ I you want to contribute, please send me a mail or a pidgeon :grin:
 &nbsp;
 
 **Image list view**
+
 <p align="center">
     <img src="screenshots/02.png" alt="Birds Kitchen" title="Birds Kitchen" />
 </p>
@@ -34,6 +39,7 @@ I you want to contribute, please send me a mail or a pidgeon :grin:
 &nbsp;
 
 **Table view**
+
 <p align="center">
     <img src="screenshots/03.png" alt="Birds Kitchen" title="Birds Kitchen" />
 </p>
@@ -41,6 +47,7 @@ I you want to contribute, please send me a mail or a pidgeon :grin:
 &nbsp;
 
 **Print view**
+
 <p align="center">
     <img src="screenshots/04.png" alt="Birds Kitchen" title="Birds Kitchen" />
 </p>
@@ -48,6 +55,7 @@ I you want to contribute, please send me a mail or a pidgeon :grin:
 &nbsp;
 
 **Edit view**
+
 <p align="center">
     <img src="screenshots/05.png" alt="Birds Kitchen" title="Birds Kitchen" />
 </p>
@@ -55,6 +63,7 @@ I you want to contribute, please send me a mail or a pidgeon :grin:
 &nbsp;
 
 **Preferences screen - Storage tab**
+
 <p align="center">
     <img src="screenshots/06.png" alt="Birds Kitchen" title="Birds Kitchen" />
 </p>
@@ -62,6 +71,7 @@ I you want to contribute, please send me a mail or a pidgeon :grin:
 &nbsp;
 
 **Preferences screen - Theme tab**
+
 <p align="center">
     <img src="screenshots/07.png" alt="Birds Kitchen" title="Birds Kitchen" />
 </p>
@@ -97,9 +107,11 @@ I you want to contribute, please send me a mail or a pidgeon :grin:
 ## Running locally
 
 ### Binaries
-**Visit the [Releases Page](https://github.com/fredserva/birdskitchen/releases) to find the installer you need.** 
+
+**Visit the [Releases Page](https://github.com/fredserva/birdskitchen/releases) to find the installer you need.**
 
 ### Building from source
+
 ```bash
 # clone the project
 git clone https://github.com/fredserva/birdskitchen.git
@@ -114,6 +126,22 @@ yarn
 yarn dev
 ```
 
+## macOS M1 prerequisites
+
+```bash
+# install Chromium
+brew install chromium --no-quarantine
+```
+
+### Add to next lines to the &nbsp; `~/.zshrc`
+
+```bash
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+export PUPPETEER_EXECUTABLE_PATH=`which chromium`
+```
+
+More info about running project on M1 - [Stackoverflow](https://stackoverflow.com/a/66044814)
+
 ## Contributing
 
 To add support for your favorite language, or submit new features, feel free to open an issue or contact me directly.
@@ -127,8 +155,8 @@ To add support for your favorite language, or submit new features, feel free to 
 
 [Yes, do that!](https://paypal.me/fredserva)
 
-
 ---
+
 &nbsp;
 
 ## Contributors
