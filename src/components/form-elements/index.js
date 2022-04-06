@@ -8,4 +8,14 @@ import TextField from './text-field';
 import TextareaField from './textarea-field';
 import UrlField from './url-field';
 
-export {Button, ChoiceField, MarkdownField, NumberField, SearchField, TagsField, TextField, TextareaField, UrlField};
+export {
+  Button,
+  ChoiceField,
+  MarkdownField,
+  NumberField,
+  SearchField,
+  TagsField,
+  TextField,
+  TextareaField,
+  UrlField,
+};
