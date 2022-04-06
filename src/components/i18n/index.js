@@ -8,29 +8,29 @@ import translationIT from '../../locales/it/translation.json';
 
 // The translations
 const resources = {
-	en: {
-		translation: translationEN
-	},
-	fr: {
-		translation: translationFR
-	},
-	de: {
-		translation: translationDE
-	},
-	it: {
-		translation: translationIT
-	}
+  en: {
+    translation: translationEN,
+  },
+  fr: {
+    translation: translationFR,
+  },
+  de: {
+    translation: translationDE,
+  },
+  it: {
+    translation: translationIT,
+  },
 };
 
-i18n.use( initReactI18next ).init( {
-	resources,
-	lng: 'en',
-	keySeparator: false,
-	fallbackLng: 'en',
+i18n.use(initReactI18next).init({
+  resources,
+  lng: 'en',
+  keySeparator: false,
+  fallbackLng: 'en',
 
-	interpolation: {
-		escapeValue: false
-	}
-} );
+  interpolation: {
+    escapeValue: false,
+  },
+});
 
 export default i18n;
