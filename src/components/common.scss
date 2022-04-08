@@ -31,6 +31,16 @@ html {
       overflow: hidden;
     }
   }
+
+  .top-menu-container {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+
+    button,
+    input {
+      -webkit-app-region: no-drag;
+    }
+  }
 }
 
 #sidebar-container {
