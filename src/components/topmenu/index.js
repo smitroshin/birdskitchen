@@ -136,6 +136,25 @@ class TopMenuNotExtended extends Component {
     setRecipeList(selectedMenu, text);
   };
 
+  /**
+   * Source: https://github.com/electron/electron/issues/16385#issuecomment-653952292
+   */
+  handleDoubleClick = () => {
+    const win = remote.getCurrentWindow();
+    if (!win) return;
+    // `getUserDefault` is only available under macOS
+    if (process.platform === 'darwin') {
+      const action = remote.systemPreferences.getUserDefault(
+        'AppleActionOnDoubleClick',
+        'string'
+      );
+      if (action === 'None') return;
+      if (action === 'Minimize') return win.minimize();
+    }
+    if (win.isMaximized()) return win.unmaximize();
+    return win.maximize();
+  };
+
   render() {
     const {
       maximize,
@@ -147,7 +166,7 @@ class TopMenuNotExtended extends Component {
     const { t, query } = this.props;
 
     return (
-      <div className="comp_topmenu">
+      <div className="comp_topmenu" onDoubleClick={this.handleDoubleClick}>
         <div id="notification" className="hidden">
           <p id="message"></p>
           <div className="buttons">
