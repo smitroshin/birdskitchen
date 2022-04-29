@@ -7,7 +7,7 @@ import store from './redux/store';
 import RecipeArea from './components/recipe-area';
 import { StorageHelpers } from './core/helpers';
 
-import './components/common.scss';
+import './styles/common.scss';
 
 class App extends Component {
   constructor(props) {

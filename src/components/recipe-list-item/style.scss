@@ -1,3 +1,5 @@
+@import '../../styles/utils.scss';
+
 .content-header-divider {
   height: 20px;
   margin: 0 10px;
@@ -46,7 +48,7 @@
       }
 
       .title {
-        font-size: 0.35rem;
+        font-size: rem(15px);
         line-height: 1;
         font-weight: 700;
         max-width: 100%;
@@ -69,13 +71,13 @@
     }
 
     .title {
-      font-size: 0.275rem;
+      font-size: rem(13px);
       margin-bottom: 5px;
     }
 
     .code {
       font-weight: bold;
-      font-size: 0.275rem;
+      font-size: rem(13px);
     }
 
     .tags-list {
@@ -239,7 +241,7 @@
       }
 
       .title {
-        font-size: 0.4rem;
+        font-size: rem(19px);
         font-weight: 700;
         width: calc(100% - 140px);
         text-overflow: ellipsis;
@@ -269,13 +271,13 @@
     }
 
     .title {
-      font-size: 0.275rem;
+      font-size: rem(13px);
       margin-bottom: 5px;
     }
 
     .code {
       font-weight: bold;
-      font-size: 0.275rem;
+      font-size: rem(13px);
     }
 
     .tags-list {

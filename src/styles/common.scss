@@ -1,3 +1,4 @@
+@import '../styles/utils.scss';
 @import '../themes/theme';
 
 body,
@@ -14,7 +15,8 @@ html {
       width: 10px;
     }
   }
-  font-size: calc(16px + (60 - 16) * ((100vw - 320px) / (1980 - 320)));
+  // font-size: calc(16px + (60 - 16) * ((100vw - 320px) / (1980 - 320)));
+  font-size: $html-font-size;
 }
 
 #root {
@@ -59,7 +61,7 @@ html {
 
 .noty_theme__sunset {
   .noty_body {
-    font-size: 0.4rem !important;
+    font-size: rem(19px) !important;
     display: flex;
     align-items: flex-start;
     padding: 20px !important;

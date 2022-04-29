@@ -1,3 +1,5 @@
+@import '../../styles/utils.scss';
+
 .form-group.rating {
   display: flex;
   flex-direction: column;
@@ -15,7 +17,7 @@
 .comp_sidebar {
   display: flex;
   flex-direction: column;
-  width: 6rem;
+  width: 286px;
   height: 100%;
 
   * {
@@ -23,7 +25,7 @@
   }
 
   .no-item-text {
-    font-size: 0.35rem;
+    font-size: rem(15px);
     padding: 10px 20px;
     text-align: left;
   }
@@ -45,13 +47,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 0.75rem;
+        width: 35px;
         text-align: center;
         margin-right: 3px;
 
         svg {
-          height: 0.35rem;
-          width: 0.35rem;
+          height: 1em;
+          width: 1em;
         }
       }
 
@@ -61,7 +63,7 @@
         width: calc(100% - 50px);
 
         .text-container {
-          font-size: 0.4rem;
+          font-size: rem(19px);
           width: 100%;
           overflow: hidden;
           display: inline-block;
@@ -95,7 +97,7 @@
       }
 
       .text {
-        font-size: 0.4rem;
+        font-size: rem(19px);
         font-weight: 400;
 
         i {
@@ -110,7 +112,7 @@
       .sidebar-title {
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 0.4rem;
+        font-size: rem(19px);
         padding: 10px 15px;
       }
     }
@@ -123,7 +125,7 @@
   .accordion__heading {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 0.4rem;
+    font-size: rem(19px);
     padding: 10px 15px;
     transition: all 0.4s;
     position: relative;
@@ -135,8 +137,8 @@
       position: absolute;
       content: '\2304';
       font-size: 0.6rem;
-      width: 0.4rem;
-      height: 0.4rem;
+      width: rem(19px);
+      height: rem(19px);
       top: 0.1rem;
       right: 5px;
       transition: all 0.4s;
@@ -150,9 +152,9 @@
       position: absolute;
       content: '\2303';
       font-size: 0.6rem;
-      width: 0.4rem;
-      height: 0.4rem;
-      top: 0.4rem;
+      width: rem(19px);
+      height: rem(19px);
+      top: rem(19px);
       right: 5px;
       transition: all 0.4s;
       display: flex;

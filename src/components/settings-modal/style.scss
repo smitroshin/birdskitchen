@@ -1,3 +1,5 @@
+@import '../../styles/utils.scss';
+
 .comp_settings-modal {
   .modal-content {
     .modal-body {
@@ -21,7 +23,7 @@
         display: flex;
         cursor: pointer;
         padding: 10px 16px;
-        font-size: 0.4rem;
+        font-size: rem(19px);
         font-weight: 700;
       }
     }
@@ -53,7 +55,7 @@
       }
 
       .info {
-        font-size: 0.4rem;
+        font-size: rem(19px);
         margin: 5px 0;
         width: 50%;
 
@@ -126,7 +128,7 @@
 
       .form-control {
         &:read-only {
-          font-size: 0.4rem;
+          font-size: rem(19px);
           padding: 5px 10px;
         }
       }
@@ -240,7 +242,7 @@
             flex-direction: row;
             justify-content: space-between;
             padding: 6px 8px;
-            font-size: 0.4rem;
+            font-size: rem(19px);
 
             span {
               cursor: pointer;
@@ -274,7 +276,7 @@
         font-weight: 700;
 
         small {
-          font-size: 0.4rem;
+          font-size: rem(19px);
         }
       }
 
@@ -285,12 +287,12 @@
         margin-top: 32px;
 
         .text {
-          font-size: 0.4rem;
+          font-size: rem(19px);
           margin: 5px 0 0;
         }
 
         .author {
-          font-size: 0.4rem;
+          font-size: rem(19px);
           font-weight: 700;
           cursor: pointer;
 
@@ -309,14 +311,14 @@
           text-align: justify;
 
           .text {
-            font-size: 0.4rem;
+            font-size: rem(19px);
             margin: 0;
             padding: 0 0 30px;
             text-align: center;
           }
 
           h2 {
-            font-size: 0.35rem;
+            font-size: rem(15px);
             text-align: center;
             margin: 0;
             padding: 10px 0 0;
@@ -345,10 +347,10 @@
             margin: 10px 0 20px;
 
             li {
-              font-size: 0.35rem;
+              font-size: rem(15px);
 
               strong {
-                font-size: 0.35rem;
+                font-size: rem(15px);
                 font-weight: 700;
               }
             }
@@ -358,7 +360,7 @@
 
       .sponsor {
         font-weight: 500;
-        font-size: 0.4rem;
+        font-size: rem(19px);
         cursor: pointer;
         color: #ffa500 !important;
 
@@ -380,7 +382,7 @@
       }
 
       .description {
-        font-size: 0.4rem;
+        font-size: rem(19px);
         margin-top: 3px;
         margin-bottom: 15px;
       }
@@ -393,7 +395,7 @@
 
         .link {
           margin: 0;
-          font-size: 0.4rem;
+          font-size: rem(19px);
           cursor: pointer;
           display: inline-block;
 
@@ -414,7 +416,7 @@
       }
 
       .info {
-        font-size: 0.4rem;
+        font-size: rem(19px);
         padding-right: 40px;
       }
     }
@@ -440,7 +442,7 @@
 
       .info {
         width: 100%;
-        font-size: 0.4rem;
+        font-size: rem(19px);
         padding: 0;
         margin: 0;
         box-sizing: border-box;
@@ -460,7 +462,7 @@
         }
 
         .tiny-text {
-          font-size: 0.35rem;
+          font-size: rem(15px);
           padding: 0 5px;
           color: #6fd66f;
         }
@@ -512,7 +514,7 @@
           cursor: pointer;
 
           .text-container {
-            font-size: 0.4rem;
+            font-size: rem(19px);
             margin-top: 8px;
             font-weight: bold;
           }

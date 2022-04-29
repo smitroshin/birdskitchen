@@ -1,3 +1,5 @@
+@import '../../styles/utils.scss';
+
 .comp_unit-converter-modal {
   position: fixed;
   top: 0;
@@ -129,7 +131,7 @@
               color: #212121;
               background-color: #ccc;
               padding: 10px;
-              font-size: 0.4rem;
+              font-size: rem(19px);
               font-weight: bold;
             }
 
@@ -207,7 +209,7 @@
               color: #212121;
               background-color: #ccc;
               padding: 10px;
-              font-size: 0.4rem;
+              font-size: rem(19px);
               font-weight: bold;
             }
 
@@ -291,7 +293,7 @@
               color: #212121;
               background-color: #ccc;
               padding: 10px;
-              font-size: 0.4rem;
+              font-size: rem(19px);
               font-weight: bold;
             }
 
@@ -369,7 +371,7 @@
               color: #212121;
               background-color: #ccc;
               padding: 10px;
-              font-size: 0.4rem;
+              font-size: rem(19px);
               font-weight: bold;
             }
 
@@ -453,7 +455,7 @@
               color: #212121;
               background-color: #ccc;
               padding: 10px;
-              font-size: 0.4rem;
+              font-size: rem(19px);
               font-weight: bold;
             }
 
@@ -531,7 +533,7 @@
               color: #212121;
               background-color: #ccc;
               padding: 10px;
-              font-size: 0.4rem;
+              font-size: rem(19px);
               font-weight: bold;
             }
 
